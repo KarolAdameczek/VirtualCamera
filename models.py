@@ -206,7 +206,6 @@ class Camera():
 
     def changeZoom(self, val):
         self.zoom += val
-        print(self.zoom)
         if self.zoom < MIN_ZOOM:
             self.zoom = MIN_ZOOM
         elif self.zoom > MAX_ZOOM:
